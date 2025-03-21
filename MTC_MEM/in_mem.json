@@ -1,0 +1,94 @@
+{
+    "membrane": {
+        "status": [
+            "on"
+        ],
+        "Din": [
+            [
+                0.02
+            ]
+        ],
+        "Thick": [
+            [
+                3e-05
+            ]
+        ],
+        "nit": 1,
+        "Tc": [
+            [
+                393.15
+            ]
+        ],
+        "Th": [
+            [
+                493.15
+            ]
+        ],
+        "pattern": [
+            -1
+        ],
+        "pattern_h": [
+            -1
+        ],
+        "io": "out",
+        "qmc": [
+            [
+                0.008
+            ]
+        ],
+        "qmh": [
+            [
+                0.5
+            ]
+        ],
+        "q": 0,
+        "per_H2O": [
+            [
+                8.293563497944214e-07
+            ]
+        ],
+        "per_S": [
+            [
+                1989.322006067453
+            ]
+        ],
+        "per": [
+            0,
+            2.5e-09,
+            0,
+            5e-07,
+            0,
+            0
+        ],
+        "Pp": [
+            [
+                1
+            ]
+        ],
+        "Fp": "0.9629303466195636\t0.0\t0\t0\t0\t0",
+        "per_H2O1": [
+            [
+                2e-06
+            ]
+        ],
+        "per_S1": [
+            [
+                200
+            ]
+        ]
+    },
+    "unit": {
+        "Din": "m",
+        "Thick": "m",
+        "nit": "-,number of tube",
+        "Tc": "K, output temperature of water in the cold side",
+        "pattern": "flow direction of cold media, 1 counter flow",
+        "io": "in:reaction in the insides of insulator; out:inverse",
+        "qmh": "mol/s, flux of water in the cold side, ref hamedi ACS, 3e-1,0.5 for 523.15",
+        "q": "-,vapor fraction of water at outside",
+        "heater": "W/m",
+        "per": "permeability of membrane for each comps",
+        "P": "permeate of pressure",
+        "Fp": "permeate flow, mol/s, 3e-3"
+    }
+}

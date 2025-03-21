@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _3731alr.inm
+MODNAME: apmain
+RUNID: _3731alr
+NEW_RUNID: _3731alr
+OLD_RUNID: _3731alr
+PDF: _3731alr.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+DBCONN: _3731alr.ads

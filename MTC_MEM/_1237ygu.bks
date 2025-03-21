@@ -1,0 +1,348 @@
+ ? SETUP UNITS-SET SET1 ? \ UNITSET BASESET = SI (1 1 1 1 1 1 1 1 1 1 6 1 1 1 1 
+ 1 1 1 1 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1  
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1  
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1  
+ 1 1 1 1 1 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1) \                               
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 11 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 12 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 13 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 14 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 15 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 16 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 17 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 18 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 19 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 20 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 21 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 22 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 23 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 24 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 25 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 26 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 27 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 28 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 29 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? %M FLOWSHEET GLOBAL ? ; SET1 ; \ BLOCK BLKID = B1 IN = (S5 X) OUT = (S3 X S4 
+ X) \ \ BLOCK BLKID = B3 IN = (S6 X) OUT = (S7 X S8 X S1 X) \ \ BLOCK BLKID =   
+ B4 IN = (S18 X) OUT = (S5 X S6 X) \ \ BLOCK BLKID = B10 IN = (S11 X S1 X) OUT  
+ = (S14 X S2 X) \ \ BLOCK BLKID = B11 IN = (S2 X) OUT = (S15 X S16 X) \ \ BLOCK 
+ BLKID = B2 IN = (S9 X S10 X) OUT = (S12 X S13 X) \ ? BLOCK RADFRAC B3 ? ;      
+ SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM = STANDARD DAMPING = NONE \ \  
+ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5445491880 <-1> <0> DP-COL =             
+ .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID = S6 FEED-STAGE = 5  
+ \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM = S7 PROD-STAGE = 1  
+ PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE = L \ \           
+ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R P-STATE =      
+ INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC SPEC-NO = 1     
+ SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH) SPEC-STREAMS  
+ = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995" \ \ VARY      
+ VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP = .010 <0> <0> 
+ \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE = BLOCK-VAR       
+ FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY FVN-UOM = "WATT" 
+ \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE = BLOCK-VAR         
+ VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE VARYID1 = S6 \ \ 
+ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ "\@"             
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5445491880   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 6 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5445491880   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 7 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5445491880   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 8 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = 1.674552780   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 8 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? STREAM MATERIAL S18 ? ; SET1 ; \ SUBSTREAM SSID = MIXED TEMP = 407.2250 <22> 
+ <1> PRES = 1.20 <20> <5> BASIS = MOLE-FLOW \ \ MOLE-FLOW SSID1 = MIXED CID =   
+ O2 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = H2 FLOW = 7.761536E-08 <-89> <6> 
+ / SSID1 = MIXED CID = N2 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = CO FLOW =  
+ 1.398917E-08 <-89> <6> / SSID1 = MIXED CID = CO2 FLOW = .00003785296 <-89> <6> 
+ / SSID1 = MIXED CID = NH3 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = H2O FLOW  
+ = .00108207368 <-89> <6> / SSID1 = MIXED CID = CH4 FLOW = 0.0 <-89> <6> /      
+ SSID1 = MIXED CID = C2H6 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = C3H8 FLOW  
+ = 0.0 <-89> <6> / SSID1 = MIXED CID = I-C4 FLOW = 0.0 <-89> <6> / SSID1 =      
+ MIXED CID = N-C4 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = MEOH FLOW =        
+ .00788113728 <-89> <6> / SSID1 = MIXED CID = ETOH FLOW = 0.0 <-89> <6> / SSID1 
+ = MIXED CID = DME FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = AR FLOW = 0.0     
+ <-89> <6> \ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH =        
+ .0010 <0> <0> LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT  
+ = 1.20 <20> <5> NSTAGE = 10 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1     
+ LOWER = 10 UPPER = 30 \ "\@"                                                   
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 11 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 12 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 13 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 14 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 15 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 16 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 17 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 18 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 19 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 20 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 21 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 22 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 23 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 24 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 25 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 26 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 27 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 28 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK DSTWU B1 ? ; SET1 ; \ PARAM HEAVYKEY = H2O RECOVH = .0010 <0> <0>      
+ LIGHTKEY = MEOH RECOVL = .9990 <0> <0> PTOP = 1.0 <20> <5> PBOT = 1.20 <20>    
+ <5> NSTAGE = 29 RDV = 1.0 <0> <0> PLOT = YES \ \ PLOT INCR = 1 LOWER = 10      
+ UPPER = 30 \ "\@"                                                              
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5835303060   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 5 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5835303060   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 6 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5835303060   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 7 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM NSTAGE = 10 MAXOL = 25 ALGORITHM =       
+ STANDARD DAMPING = NONE \ \ COL-SPECS RR-BASIS = MOLE BASIS-RR = .5835303060   
+ <-1> <0> DP-COL = .20 <75> <5> D:F = .8790296710 <0> <0> \ \ FEEDS FEED-SID =  
+ S6 FEED-STAGE = 8 \ \ P-SPEC2 PRES1 = 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM =  
+ S7 PROD-STAGE = 1 PROD-PHASE = V / PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE 
+ = L \ \ PSEUDO-STREA PSEUDO-SID = S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R        
+ P-STATE = INLET \ \ COL-CONFIG CONDENSER = PARTIAL-V \ \ PARAM2 \ \ SPEC       
+ SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE = .9950 <0> <0> SPEC-COMPS = (MEOH)   
+ SPEC-STREAMS = (S7) BASE-STREAMS = (S6) SPEC-DESCRIP = "MOLE RECOVERY, 0.995"  
+ \ \ VARY VARY-NO = 1 VARTYPE = RR LB = .50 <0> <0> UB = 4.0 <0> <0> STEP =     
+ .010 <0> <0> \ ? SENSITIVITY S-1 ? ; SET1 ; \ DEFINE FVN = HD FVN-VARTYPE =    
+ BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = RESULTS FVN-VARIABLE = REB-DUTY        
+ FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = "HD" \ \ VARY 1 VARY-VARTYPE =  
+ BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS VARYVARIABLE = FEED-STAGE        
+ VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17" INCR = "1" OPT-LIST = RANGE \ 
+ "\@"                                                                           
+ ? STREAM MATERIAL S11 ? ; SET1 ; \ SUBSTREAM SSID = MIXED TEMP = 523.5850 <22> 
+ <1> PRES = 48.0 <20> <5> BASIS = MOLE-FLOW \ \ MOLE-FLOW SSID1 = MIXED CID =   
+ O2 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = H2 FLOW = 0.0 <-89> <6> / SSID1  
+ = MIXED CID = N2 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = CO FLOW = 0.0      
+ <-89> <6> / SSID1 = MIXED CID = CO2 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = 
+ NH3 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = H2O FLOW = .50 <-89> <6> /      
+ SSID1 = MIXED CID = CH4 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = C2H6 FLOW = 
+ 0.0 <-89> <6> / SSID1 = MIXED CID = C3H8 FLOW = 0.0 <-89> <6> / SSID1 = MIXED  
+ CID = I-C4 FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = N-C4 FLOW = 0.0 <-89>    
+ <6> / SSID1 = MIXED CID = MEOH FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = ETOH 
+ FLOW = 0.0 <-89> <6> / SSID1 = MIXED CID = DME FLOW = 0.0 <-89> <6> / SSID1 =  
+ MIXED CID = AR FLOW = 0.0 <-89> <6> \ ? BLOCK RADFRAC B3 ? ; SET1 ; \ PARAM    
+ NSTAGE = 10 MAXOL = 25 ALGORITHM = STANDARD DAMPING = NONE \ \ COL-SPECS       
+ RR-BASIS = MOLE BASIS-RR = 1.674570490 <-1> <0> DP-COL = .20 <75> <5> D:F =    
+ .8790296710 <0> <0> \ \ FEEDS FEED-SID = S6 FEED-STAGE = 8 \ \ P-SPEC2 PRES1 = 
+ 1.0 <20> <5> \ \ PRODUCTS PROD-STREAM = S7 PROD-STAGE = 1 PROD-PHASE = V /     
+ PROD-STREAM = S8 PROD-STAGE = 10 PROD-PHASE = L \ \ PSEUDO-STREA PSEUDO-SID =  
+ S1 PSEUDO-STAGE = 10 PSEUDO-PHASE = R P-STATE = INLET \ \ COL-CONFIG CONDENSER 
+ = PARTIAL-V \ \ PARAM2 \ \ SPEC SPEC-NO = 1 SPEC-TYPE = MOLE-RECOV VALUE =     
+ .9950 <0> <0> SPEC-COMPS = (MEOH) SPEC-STREAMS = (S7) BASE-STREAMS = (S6)      
+ SPEC-DESCRIP = "MOLE RECOVERY, 0.995" \ \ VARY VARY-NO = 1 VARTYPE = RR LB =   
+ .50 <0> <0> UB = 4.0 <0> <0> STEP = .010 <0> <0> \ ? SENSITIVITY S-1 ? ;       
+ SET1 ; \ DEFINE FVN = HD FVN-VARTYPE = BLOCK-VAR FVN-BLOCK = B3 FVN-SENTENCE = 
+ RESULTS FVN-VARIABLE = REB-DUTY FVN-UOM = "WATT" \ \ TABULATE COLNO = 1 EXPR = 
+ "HD" \ \ VARY 1 VARY-VARTYPE = BLOCK-VAR VARYBLOCK = B3 VARYSENTENCE = FEEDS   
+ VARYVARIABLE = FEED-STAGE VARYID1 = S6 \ \ VARY 1 LOWER = "9" UPPER = "17"     
+ INCR = "1" OPT-LIST = RANGE \ "\@"                                             

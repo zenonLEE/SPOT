@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _1237ygu.inm
+MODNAME: apmain
+RUNID: _1237ygu
+NEW_RUNID: _1237ygu
+OLD_RUNID: _1237ygu
+PDF: _1237ygu.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+DBCONN: _1237ygu.ads

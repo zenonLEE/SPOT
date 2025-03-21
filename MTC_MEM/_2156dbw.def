@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _2156dbw.inm
+MODNAME: apmain
+RUNID: _2156dbw
+NEW_RUNID: _2156dbw
+OLD_RUNID: _2156dbw
+PDF: _2156dbw.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+DBCONN: _2156dbw.ads

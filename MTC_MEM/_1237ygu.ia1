@@ -1,0 +1,224 @@
+
+ BLOCK:  B3       MODEL: RADFRAC         
+ -------------------------------
+    INLETS   - S6       STAGE   8
+    OUTLETS  - S7       STAGE   1
+               S8       STAGE  10
+               S1       STAGE  10
+   PROPERTY OPTION SET:   SRK       SOAVE-REDLICH-KWONG EQUATION OF STATE       
+
+
+     ***********************************************************************
+     *                                                                     *
+     *     ERRORS IN BLOCK CALCULATIONS                                    *
+     *                                                                     *
+     *     COLUMN NOT CONVERGED IN MAX ITERATIONS                          *   
+     *                                                                     *
+     ***********************************************************************
+
+
+                      ***  MASS AND ENERGY BALANCE  ***
+                                    IN              OUT        RELATIVE DIFF.
+    TOTAL BALANCE
+       MOLE(MOL/SEC )           0.900116E-02    0.900116E-02     0.00000    
+       MASS(KG/SEC  )           0.273689E-03    0.273689E-03   -0.479136E-12
+       ENTHALPY(WATT    )       -1815.88        -1890.84        0.396447E-01
+
+                      ***  CO2 EQUIVALENT SUMMARY ***
+    FEED STREAMS CO2E            0.166590E-05  KG/SEC          
+    PRODUCT STREAMS CO2E         0.166590E-05  KG/SEC          
+    NET STREAMS CO2E PRODUCTION  0.121591E-13  KG/SEC          
+    UTILITIES CO2E PRODUCTION     0.00000      KG/SEC          
+    TOTAL CO2E PRODUCTION        0.121591E-13  KG/SEC          
+
+
+
+                         **********************
+                         ****  INPUT DATA  ****
+                         **********************
+
+   ****   INPUT PARAMETERS   ****
+
+    NUMBER OF STAGES                                        10
+    ALGORITHM OPTION                                      STANDARD    
+    ABSORBER OPTION                                       NO      
+    INITIALIZATION OPTION                                 STANDARD    
+    HYDRAULIC PARAMETER CALCULATIONS                      NO      
+    INSIDE LOOP CONVERGENCE METHOD                        BROYDEN 
+    DESIGN SPECIFICATION METHOD                           NESTED  
+    MAXIMUM NO. OF OUTSIDE LOOP ITERATIONS                  25
+    MAXIMUM NO. OF INSIDE LOOP ITERATIONS                   10
+    MAXIMUM NUMBER OF FLASH ITERATIONS                      30
+    FLASH TOLERANCE                                          0.100000-05
+    OUTSIDE LOOP CONVERGENCE TOLERANCE                       0.000100000
+
+   ****   COL-SPECS   ****
+
+    MOLAR VAPOR DIST / TOTAL DIST                            1.00000    
+    MOLAR REFLUX RATIO                                       1.67457    
+    DISTILLATE TO FEED RATIO                                 0.87903    
+
+   ****    PROFILES   ****
+
+    P-SPEC          STAGE   1  PRES, BAR                     1.00000    
+
+                          *******************
+                          ****  RESULTS  ****
+                          *******************
+
+
+   ***   COMPONENT SPLIT FRACTIONS   ***
+
+                             OUTLET STREAMS 
+                             --------------
+                  S7           S8      
+    COMPONENT:
+    H2          1.0000       0.0000    
+    CO          1.0000       0.0000    
+    CO2         1.0000       .12831E-12
+    H2O         .25960E-01   .97404    
+    MEOH        .99557       .44270E-02
+
+ 
+   ***    SUMMARY OF KEY RESULTS    ***
+
+    TOP STAGE TEMPERATURE          K                       338.215      
+    BOTTOM STAGE TEMPERATURE       K                       371.289      
+    TOP STAGE LIQUID FLOW          MOL/SEC                   0.013250   
+    BOTTOM STAGE LIQUID FLOW       MOL/SEC                   0.0010889  
+    TOP STAGE VAPOR FLOW           MOL/SEC                   0.0079123  
+    BOILUP VAPOR FLOW              MOL/SEC                   0.010487   
+    MOLAR REFLUX RATIO                                       1.67457    
+    MOLAR BOILUP RATIO                                       9.63071    
+    CONDENSER DUTY (W/O SUBCOOL)   WATT                   -511.656      
+    REBOILER DUTY                  WATT                    436.692      
+
+
+   ****   MANIPULATED VARIABLES   ****
+
+                                                 BOUNDS             CALCULATED
+                                          LOWER         UPPER         VALUE
+   MOLAR REFLUX RATIO                    0.50000        4.0000        1.6746    
+
+   ****    DESIGN SPECIFICATIONS   **** 
+
+ NO  SPEC-TYPE     QUALIFIERS              UNIT       SPECIFIED     CALCULATED
+                                                        VALUE         VALUE
+  1  MOLE-RECOV    STREAMS: S7                         0.99500       0.99557    
+                   COMPS:   MEOH         
+                   BASE-STREAMS: S6      
+
+   ****   MAXIMUM FINAL RELATIVE ERRORS   ****
+
+    DEW POINT                       0.13874E-02  STAGE= 10
+    BUBBLE POINT                    0.12129E-01  STAGE=  9
+    COMPONENT MASS BALANCE          0.72453E-07  STAGE=  7 COMP=CO2     
+    ENERGY BALANCE                  0.21060E-02  STAGE= 10
+
+
+   ****    PROFILES   ****
+
+   **NOTE** REPORTED VALUES FOR STAGE LIQUID AND VAPOR RATES ARE THE FLOWS
+            FROM THE STAGE INCLUDING ANY SIDE PRODUCT.
+
+                                          ENTHALPY
+ STAGE TEMPERATURE   PRESSURE             J/KMOL             HEAT DUTY
+       K             BAR            LIQUID       VAPOR        WATT    
+
+   1   338.21        1.0000      -0.23822E+09 -0.20034E+09   -511.6556
+   2   338.96        1.0222      -0.23854E+09 -0.19988E+09            
+   3   339.71        1.0444      -0.23910E+09 -0.20008E+09            
+   4   340.58        1.0667      -0.24003E+09 -0.20041E+09            
+   6   343.04        1.1111      -0.24380E+09 -0.20180E+09            
+   7   344.93        1.1333      -0.24725E+09 -0.20310E+09            
+   8   348.15        1.1556      -0.25342E+09 -0.20513E+09            
+   9   356.16        1.1778      -0.26906E+09 -0.21114E+09            
+  10   371.29        1.2000      -0.28076E+09 -0.22628E+09    436.6915
+
+ STAGE     FLOW RATE                  FEED RATE               PRODUCT RATE
+            MOL/SEC                    MOL/SEC                  MOL/SEC 
+       LIQUID     VAPOR       LIQUID    VAPOR    MIXED      LIQUID    VAPOR
+   1 0.1325E-01 0.7912E-02                                           .79123-02
+   2 0.1325E-01 0.2116E-01                                                    
+   3 0.1324E-01 0.2116E-01                                                    
+   4 0.1322E-01 0.2115E-01                                                    
+   6 0.1311E-01 0.2109E-01                                                    
+   7 0.1232E-01 0.2102E-01            .90012-02                               
+   8 0.1212E-01 0.1123E-01                                                    
+   9 0.1158E-01 0.1103E-01                                                    
+  10 0.1089E-02 0.1049E-01                                 .10889-02          
+
+    ****  MASS FLOW PROFILES  ****
+
+ STAGE     FLOW RATE                  FEED RATE               PRODUCT RATE
+            KG/SEC                     KG/SEC                   KG/SEC  
+       LIQUID     VAPOR       LIQUID    VAPOR    MIXED      LIQUID    VAPOR
+   1 0.4228E-03 0.2536E-03                                           .25358-03
+   2 0.4212E-03 0.6764E-03                                                    
+   3 0.4183E-03 0.6748E-03                                                    
+   4 0.4134E-03 0.6718E-03                                                    
+   6 0.3935E-03 0.6592E-03                                                    
+   7 0.3561E-03 0.6471E-03            .27369-03                               
+   8 0.3261E-03 0.3360E-03                                                    
+   9 0.2554E-03 0.3060E-03                                                    
+  10 0.2011E-04 0.2353E-03                                 .20106-04          
+
+                         ****   MOLE-X-PROFILE     ****
+   STAGE     H2            CO            CO2           H2O           MEOH    
+      1    0.10654E-08   0.36418E-09   0.27936E-04   0.92081E-02   0.99076    
+      2    0.40389E-09   0.13709E-09   0.10553E-04   0.18260E-01   0.98173    
+      3    0.40430E-09   0.13581E-09   0.10394E-04   0.32681E-01   0.96731    
+      4    0.39778E-09   0.13155E-09   0.10139E-04   0.55415E-01   0.94457    
+      6    0.34885E-09   0.10824E-09   0.88078E-05   0.14455       0.85544    
+      7    0.29846E-09   0.86876E-10   0.75438E-05   0.22443       0.77557    
+      8    0.18761E-13   0.77121E-14   0.24716E-07   0.36558       0.63442    
+      9    0.34241E-18   0.11949E-18   0.23864E-10   0.71147       0.28853    
+     10    0.15754E-23   0.23696E-24   0.44605E-14   0.96796       0.32042E-01
+
+                         ****   MOLE-Y-PROFILE     ****
+   STAGE     H2            CO            CO2           H2O           MEOH    
+      1    0.98095E-05   0.17680E-05   0.47841E-02   0.35502E-02   0.99165    
+      2    0.36684E-05   0.66128E-06   0.18062E-02   0.70927E-02   0.99110    
+      3    0.36676E-05   0.66108E-06   0.17952E-02   0.12761E-01   0.98544    
+      4    0.36691E-05   0.66136E-06   0.17958E-02   0.21785E-01   0.97641    
+      6    0.36798E-05   0.66327E-06   0.18006E-02   0.58035E-01   0.94016    
+      7    0.36920E-05   0.66547E-06   0.18060E-02   0.91485E-01   0.90670    
+      8    0.32739E-09   0.95296E-10   0.82750E-05   0.15236       0.84763    
+      9    0.20613E-13   0.84736E-14   0.27157E-07   0.30611       0.69389    
+     10    0.37796E-18   0.13190E-18   0.26341E-10   0.68484       0.31516    
+
+                         ****   K-VALUES           ****
+   STAGE     H2            CO            CO2           H2O           MEOH    
+      1     9217.4        4862.3        171.41       0.38543        1.0009    
+      2     9100.6        4837.5        171.45       0.38820        1.0096    
+      3     9099.4        4889.2        173.17       0.39011        1.0188    
+      4     9263.5        5058.7        177.79       0.39263        1.0338    
+      6     10606.        6176.9        205.43       0.40083        1.0993    
+      7     12409.        7695.9        240.09       0.40725        1.1694    
+      8     17333.        12232.        332.69       0.41764        1.3347    
+      9     57645.        66315.        1088.2       0.43378        2.3542    
+     10    0.24162E+06   0.55675E+06    5894.4       0.70673        9.7377    
+
+                         ****   MASS-X-PROFILE     ****
+   STAGE     H2            CO            CO2           H2O           MEOH    
+      1    0.67296E-10   0.31964E-09   0.38525E-04   0.51981E-02   0.99476    
+      2    0.25615E-10   0.12081E-09   0.14612E-04   0.10349E-01   0.98964    
+      3    0.25805E-10   0.12045E-09   0.14484E-04   0.18641E-01   0.98134    
+      4    0.25648E-10   0.11785E-09   0.14272E-04   0.31931E-01   0.96805    
+      6    0.23430E-10   0.10101E-09   0.12915E-04   0.86762E-01   0.91323    
+      7    0.20823E-10   0.84218E-10   0.11490E-04   0.13993       0.86006    
+      8    0.14052E-14   0.80263E-14   0.40416E-07   0.24471       0.75529    
+      9    0.31286E-19   0.15171E-18   0.47603E-10   0.58096       0.41904    
+     10    0.17199E-24   0.35947E-24   0.10631E-13   0.94440       0.55603E-01
+
+                         ****   MASS-Y-PROFILE     ****
+   STAGE     H2            CO            CO2           H2O           MEOH    
+      1    0.61701E-06   0.15452E-05   0.65694E-02   0.19956E-02   0.99143    
+      2    0.23135E-06   0.57948E-06   0.24869E-02   0.39975E-02   0.99351    
+      3    0.23188E-06   0.58076E-06   0.24779E-02   0.72100E-02   0.99031    
+      4    0.23290E-06   0.58331E-06   0.24886E-02   0.12358E-01   0.98515    
+      6    0.23738E-06   0.59452E-06   0.25358E-02   0.33457E-01   0.96401    
+      7    0.24180E-06   0.60558E-06   0.25822E-02   0.53545E-01   0.94387    
+      8    0.22069E-10   0.89258E-10   0.12178E-04   0.91786E-01   0.90820    
+      9    0.14975E-14   0.85536E-14   0.43072E-07   0.19873       0.80127    
+     10    0.33960E-19   0.16467E-18   0.51670E-10   0.54990       0.45010    

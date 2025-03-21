@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _4929dks.inm
+MODNAME: apmain
+RUNID: _4929dks
+NEW_RUNID: _4929dks
+OLD_RUNID: _4929dks
+PDF: _4929dks.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+DBCONN: _4929dks.ads

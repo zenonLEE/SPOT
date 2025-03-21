@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _1234vre.inm
+MODNAME: apmain
+RUNID: _1234vre
+NEW_RUNID: _1234vre
+OLD_RUNID: _1234vre
+PDF: _1234vre.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+SPONLY:

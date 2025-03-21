@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _0724npe.inm
+MODNAME: apmain
+RUNID: _0724npe
+NEW_RUNID: _0724npe
+OLD_RUNID: _0724npe
+PDF: _0724npe.appdf
+USERNAME: LI YUANMING
+XMOD: C:\Program Files\AspenTech\Aspen Plus V14.0\Engine\xeq\apmain
+DBCONN: _0724npe.ads

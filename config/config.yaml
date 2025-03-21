@@ -1,0 +1,77 @@
+
+fixed_parameters:
+  # 示例：some_fixed_param: value
+  # 如果有固定参数，可以在这里添加
+
+
+# 可变参数，参与优化
+variable_parameters:
+  per_H2O1:
+    lower: 1e-7
+    upper: 1e-4
+  per_S1:
+    lower: 10
+    upper: 10000
+  Fp1:
+    lower: 0
+    upper: 1
+  Fp2:
+    lower: 0
+    upper: 0
+  T0:
+    lower: 473.15
+    upper: 573.15
+  P0:
+    lower: 30
+    upper: 75
+
+model:
+  model_name: xgboost_optuna
+
+# 模型的输入和输出列
+input_columns:
+  - per_H2O1
+  - per_S1
+  - Fp1
+  - Fp2
+  - T0
+  - P0
+
+output_columns:
+  - eta_mod_heat
+
+# 数据路径
+#data_path: './data/raw_data_few_data_250206.xlsx'
+data_path: './data/raw_data_few_data_250206_ours.xlsx'
+#data_path: './data/raw_data_241216 ver3_ori.xlsx'
+#data_path: './data/few_shot_data_0305.xlsx'
+# 优化相关参数
+optimization:
+  n_iterations: 100
+  qmh1_option: 1
+  th1: 0.5
+
+# PSO 参数
+pso_parameters:
+  num_particles: 300
+  max_iter: 200
+  max_eta_threshold: 1.0
+  early_stopping_rounds: 20
+  early_stopping_tolerance: 1e-6
+  w_max: 0.9
+  w_min: 0.6
+  c1_max: 1.5
+  c1_min: 0.5
+  c2_max: 1.8
+  c2_min: 1.2
+  w_decay_method: "exponential"
+  vmax_start_factor: 0.5
+  vmax_end_factor: 0.3
+  use_mutation: true
+  mutation_probability: 0.3
+  mutation_strength: 0.2
+  diversity_mutation_threshold: 0.3
+  num_runs: 5
+
+# 随机种子
+seed: 42

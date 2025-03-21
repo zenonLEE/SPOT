@@ -1,0 +1,26 @@
+{
+  "condition": {
+    "T": [514.56],
+    "P": [63.82],
+    "fresh": "on",
+    "H2/CO2": 3,
+    "CO/CO2": [0],
+    "H2": [2],
+    "Sv": [90],
+    "inert": 0,
+    "T0_CO2": 383.15,
+    "T0_H2": 353.15,
+    "P0_CO2": 1,
+    "P0_H2": 30
+  },
+  "feed": "1.07409E-04\t3.21211E-4\t1E-11\t1E-011\t2.41476E-08\t5.42838E-5",
+  "unit": {
+    "T": "reactor inlet temperature, K",
+    "T_feed": "feed gas temperature, K",
+    "P": "bar",
+    "H2/CO2": "mole_ratio",
+    "H2": "Nm3/h",
+    "Sv": "m3/(h m3)",
+    "feed": "mol/s"
+  }
+}
