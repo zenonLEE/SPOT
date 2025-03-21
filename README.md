@@ -1,10 +1,15 @@
-# SPOT: Machine Learning-based Process Optimization Framework
-Welcome to the official page of **SPOT**, a novel machine learning-based closed-loop optimization framework.
+# SPOT: StepwisePSO-based Package for Optimization of Targeted Process Simulation
 
-## 🔍 About SPOT
-SPOT (**StepwisePSO-based Package for Optimization of Targeted process simulation**) is an innovative framework integrating **machine learning** and **particle swarm optimization** to optimize chemical process simulations.
+**Optimization of membrane-assisted methanol synthesis using SPOT: A machine learning-based closed-loop framework**  
+///📄 *Authors: Yuanming Li, Zhenyu Du, Shuai Deng, Xiaonan Wang, Hao Wang, Shuangjun Li*  
+///🏛 *Affiliations: Korea University, Peking University, Tianjin University, Tsinghua University*  
 
-### 📖 Key Features
-- **Membrane-assisted methanol synthesis optimization**
-- **Stepwise Particle Swarm Optimization (StepwisePSO)**
-- **Machine Learning-enhanced parameter tuning**
+**SPOT** (StepwisePSO-based Package for Optimization of Targeted process simulation) is a novel machine learning-based closed-loop framework designed for optimizing membrane-assisted methanol synthesis. The framework integrates **predictive modeling, feature importance analysis, and a stepwise particle swarm optimization (stepwisePSO) algorithm** to refine process parameters efficiently.
+
+## 🔥 Key Features
+- **Membrane-Assisted Methanol Synthesis Optimization**
+- **Stepwise Particle Swarm Optimization (StepwisePSO) Algorithm**
+- **Machine Learning-enhanced Process Parameter Tuning**
+- **Data-Efficient Closed-Loop Optimization Framework**
+
+## 📁 Project Structure
